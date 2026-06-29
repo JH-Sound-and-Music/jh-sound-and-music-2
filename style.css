@@ -1,49 +1,52 @@
 body {
     margin: 0;
     font-family: system-ui, Arial, sans-serif;
-    background: #f5f7fb;
-    color: #1c1c1c;
+    background: #0b0b0b;
+    color: #ffffff;
     line-height: 1.6;
 }
 
 /* HEADER */
 header {
-    background: #0f172a;
-    color: white;
+    background: #111111;
+    color: #ffffff;
     padding: 20px;
-}
-
-header h2 {
-    margin: 0;
+    border-bottom: 1px solid #222;
 }
 
 /* NAV */
 nav a {
-    color: white;
+    color: #ffffff;
     text-decoration: none;
     margin-right: 15px;
     font-weight: 500;
-    opacity: 0.9;
+    opacity: 0.85;
 }
 
 nav a:hover {
     opacity: 1;
+    color: #ED9513;
 }
 
-/* MAIN BOX */
+/* LINKS / AKZENT */
+a {
+    color: #ED9513;
+}
+
+/* CONTAINER */
 .container {
     max-width: 1000px;
     margin: 30px auto;
-    background: white;
+    background: #141414;
     padding: 30px;
     border-radius: 12px;
-    box-shadow: 0 10px 30px rgba(0,0,0,0.08);
+    box-shadow: 0 10px 30px rgba(0,0,0,0.6);
 }
 
-/* HERO / BANNER */
+/* HERO */
 .hero {
-    background: linear-gradient(135deg, #2563eb, #1e40af);
-    color: white;
+    background: linear-gradient(135deg, #ED9513, #c96f0f);
+    color: #000;
     padding: 40px;
     border-radius: 12px;
     margin-bottom: 25px;
@@ -53,15 +56,24 @@ nav a:hover {
 .button {
     display: inline-block;
     padding: 10px 18px;
-    background: white;
-    color: #1e40af;
+    background: #ED9513;
+    color: #000;
     text-decoration: none;
     border-radius: 8px;
     font-weight: bold;
     margin-top: 10px;
 }
 
-/* 3 BOXEN */
+.button:hover {
+    background: #ffad33;
+}
+
+/* ÜBERSCHRIFTEN */
+h1, h2, h3 {
+    color: #ED9513;
+}
+
+/* BOXEN */
 .columns {
     display: flex;
     gap: 20px;
@@ -70,18 +82,25 @@ nav a:hover {
 
 .col {
     flex: 1;
-    background: #f1f5f9;
+    background: #1c1c1c;
     padding: 20px;
     border-radius: 10px;
+    border: 1px solid #2a2a2a;
+}
+
+/* LISTEN */
+ul {
+    color: #ffffff;
 }
 
 /* FOOTER */
 footer {
-    background: #0f172a;
-    color: white;
+    background: #111111;
+    color: #ffffff;
     text-align: center;
     padding: 20px;
     margin-top: 40px;
+    border-top: 1px solid #222;
 }
 
 /* MOBILE */
