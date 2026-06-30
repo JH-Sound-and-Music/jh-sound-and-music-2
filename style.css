@@ -45,8 +45,8 @@ a {
 
 /* HERO */
 .hero {
-    background: linear-gradient(135deg, #ffffff, #c96f0f);
-    color: #000;
+    background: #1c1c1c;
+    color: #ffffff;
     padding: 40px;
     border-radius: 12px;
     margin-bottom: 25px;
